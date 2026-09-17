@@ -5,5 +5,3 @@ I hold a Doctor of Engineering in Architecture from Tongji University (advisor: 
 My research is interdisciplinary work across **healing environments, environmental psychology, and neuro-architecture**. I integrate neuroscience experiments (fNIRS), spatial-behavioral analysis, surveys, and interviews to study how urban scenes shape stress, positive emotion, and well-being in high-density communities — and I translate those findings into evidence-based design guidelines and healthy community policy.
 
 Alongside research, I have led community renewal and place-making projects in Shanghai, Wuxi, Ningbo, and Dengfeng, including a national first-batch urban renewal pilot.
-
-Find me also on [ResearchGate](https://www.researchgate.net/profile/Dancheng-Meng) and [CNKI](https://kns.cnki.net/kcms2/author/detail?v=sFGZ-GfRoEU4sTzlbXbWsYYBv4jCSSsOAaSN53_h1Jpx1iB7d--hOppll1SiJgEkaSIF3CnthBcZY8ILIqBKLIb2nAhhpL2TRhNEV2Fbe4W9eAxLO_f-lOxn3lUbbi8K1CRAytszOJghUKQKHDcATbcrJ3iBHQQf&uniplatform=NZKPT&language=CHS).
