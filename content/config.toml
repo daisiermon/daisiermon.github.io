@@ -38,7 +38,9 @@ enable_one_page_mode = false
 enabled = true
 locales = ["zh", "en"]
 default_locale = "en"
-mode = "auto"
+# "fixed" always opens in fixed_locale; "auto" follows the browser language.
+# Visitors can still switch, and persist = true remembers their choice.
+mode = "fixed"
 fixed_locale = "en"
 persist = true
 switcher = true
