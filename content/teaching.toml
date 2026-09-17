@@ -1,10 +1,24 @@
 type = "card"
 title = "Teaching"
-description = "Courses I have taught or assisted with."
+description = "Courses I have taught or assisted with at Tongji University."
 
 [[items]]
-title = "Example Course"
-subtitle = "Teaching Assistant"
-date = "2024"
-content = "Description of the course and responsibilities. Content of this course can be found [here](https://example.com)."
-tags = ["Undergraduate", "CS"]
+title = "Environmental Psychology"
+subtitle = "Graduate Teaching Assistant · CAUP, Tongji University"
+date = "2019 – 2023"
+content = "Graduate-level course, 128 contact hours (together with Environment and Behavior). Named **Excellent Teaching Assistant** at Tongji University in 2024 for this course."
+tags = ["Graduate", "Award"]
+
+[[items]]
+title = "Environment and Behavior"
+subtitle = "Graduate Teaching Assistant · CAUP, Tongji University"
+date = "2019 – 2023"
+content = "Graduate-level course on environment–behavior studies, methods, and field research."
+tags = ["Graduate"]
+
+[[items]]
+title = "Introduction to Architectural Design"
+subtitle = "Undergraduate Teaching Assistant · CAUP, Tongji University"
+date = "2019 – 2023"
+content = "English-medium course for the international cohort, 64 contact hours."
+tags = ["Undergraduate", "English-medium"]

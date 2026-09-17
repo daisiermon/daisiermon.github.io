@@ -1,26 +1,57 @@
+A one-page academic CV and the full bilingual CV are available on request — email me at [mdc@outlook.sg](mailto:mdc@outlook.sg).
+
+## Current Position
+
+**Postdoctoral Researcher**, *Since 2025.12*
+College of Architecture and Urban Planning, Tongji University, China
+Environment and Behavior Laboratory; Lab of Neuroscience and Augmented Architecture
+
 ## Education
 
-**The University of Example**, PhD in Natural Science, *2025 - Present*
-- Research focus: Mathematical Principles of Natural Philosophy
-- Supervisor: Prof. Advisor One and Dr. Advisor Two
+**Doctor of Engineering in Architecture**, Tongji University, *2019.09 – 2025.11*
+- College of Architecture and Urban Planning, Shanghai
+- Advisor: Prof. Leiqing Xu
 
-**The University of Example**, BSc in Natural Science, *2021 - 2025*
-- Graduated with First Class Honours
+**Joint Ph.D. Student, Public Policy**, National University of Singapore, *2024.01 – 2025.01*
+- Lee Kuan Yew School of Public Policy, Singapore
+- Advisor: Prof. Tan Shin Bin
 
-## Experience
+**Bachelor of Architecture**, Central South University, *2014.09 – 2019.06*
+- School of Architecture and Art, Changsha
 
-**Example Role**
-Company/Institution
-*2023 - 2024*
-- Description of key responsibilities and achievements.
-- Utilized skills to solve problems.
+## Research Profile
+
+Interdisciplinary researcher in healing environments, environmental psychology, and neuro-architecture, integrating neuroscience (fNIRS), spatial-behavioral analysis, surveys, and interviews. My research focuses on how urban scenes influence stress, positive emotions, and well-being in high-density communities, with translation into evidence-based design guidelines and healthy community policy practice.
+
+## Research Experience
+
+**Research Assistant**, Environment and Behavior Laboratory, Tongji University, *2019 – 2023*
+- Selected for Jiangsu's first urban renewal pilot; conducted spatiotemporal behavior studies via surveys, interviews, and wearable sensors to analyze residents' stress perception.
+
+**Research Assistant**, Institute for China's Urbanization, Shanghai, *2019 – 2022*
+- Published two related papers; nominated for the Qian Xuesen Urban Studies Gold Award (Urban Health Issues); supported NSFC project 51778422 and co-authored healthy community policy briefs.
+
+## Conference Presentations (Oral)
+
+- **2025** — World Congress on Design and Health, Singapore. *How Third Places Enhance Neural and Emotional Well-being in Young Adults: Evidence from Healthy Urban Environments.*
+- **2025** — Environmental Design Research Association (EDRA), Halifax, Canada. *Designing Urban Environments Through Environmental Behavior and Neural Response Insights.*
+- **2024** — International Conference on Environment-Behavior Research (CEB-ASC 2024), Nanjing, China. *Environmental Behavior Patterns and Healing Responses: Key Design Indicators for Public Spaces in High-density Urban Communities.*
+- **2023** — China Healthy City Science Symposium, Shanghai, China. *Designing Healthy Cities for Young Adults: Public Policy Implications and Healing Public Space Strategies.* (Best Oral Communication Award)
+- **2023** — Healthy City Design International Congress, Liverpool, UK. *Designing Healthy Communities in the Post-Pandemic Era: Insights from Residential Satisfaction and Housing Choices.*
+- **2020** — International Conference on Environment-Behavior Research (EBRA 2020), China. *Research on Commercial Block: Space Syntax with Multi-source Data.*
+
+## Professional Experience
+
+**Assistant Architect**, ZongYin Design Consulting Co., Ltd., Shanghai, *2019 – 2023*
+
+**Assistant Architect**, HPP Architects, Shanghai, *2018 – 2019* (Design Gold Award)
+
+**Assistant Architect**, Shenzhen Multiarch Architectural Design and Consulting, Shenzhen, *2018*
 
 ## Skills
 
-- **Programming:** Python, C++, MATLAB, LaTeX
-- **Data Analysis:** Pandas, NumPy, SciPy
-- **Languages:** English (Native), French (Fluent)
-
-## Awards & Honors
-
-- **First Prize in Example Competition** - Committee of Example (*2024*)
+- **Neuroscience & physiological methods:** fNIRS experiment design and analysis, wearable sensing
+- **Spatial & behavioral analysis:** space syntax, spatiotemporal behavior mapping, multi-source urban data
+- **Empirical methods:** survey design, structured interviews, mixed-methods fieldwork, statistical modeling
+- **Tools:** R, Python, SPSS, ArcGIS, Depthmap, Rhino, AutoCAD, Adobe Creative Suite, LaTeX
+- **Languages:** Chinese (native), English (fluent)

@@ -1,5 +1,9 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I am a postdoctoral researcher at the [College of Architecture and Urban Planning](https://caup.tongji.edu.cn/), Tongji University, working in the Environment and Behavior Laboratory and the [Lab of Neuroscience and Augmented Architecture](https://caup-lab.tongji.edu.cn/3b/76/c33896a211830/page.htm).
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+I hold a Doctor of Engineering in Architecture from Tongji University (advisor: Prof. Leiqing Xu), completed as a joint program with the [Lee Kuan Yew School of Public Policy](https://lkyspp.nus.edu.sg/), National University of Singapore (advisor: Prof. Tan Shin Bin), and a Bachelor of Architecture from Central South University.
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+My research is interdisciplinary work across **healing environments, environmental psychology, and neuro-architecture**. I integrate neuroscience experiments (fNIRS), spatial-behavioral analysis, surveys, and interviews to study how urban scenes shape stress, positive emotion, and well-being in high-density communities — and I translate those findings into evidence-based design guidelines and healthy community policy.
+
+Alongside research, I have led community renewal and place-making projects in Shanghai, Wuxi, Ningbo, and Dengfeng, including a national first-batch urban renewal pilot.
+
+Find me also on [ResearchGate](https://www.researchgate.net/profile/Dancheng-Meng) and [CNKI](https://kns.cnki.net/kcms2/author/detail?v=sFGZ-GfRoEU4sTzlbXbWsYYBv4jCSSsOAaSN53_h1Jpx1iB7d--hOppll1SiJgEkaSIF3CnthBcZY8ILIqBKLIb2nAhhpL2TRhNEV2Fbe4W9eAxLO_f-lOxn3lUbbi8K1CRAytszOJghUKQKHDcATbcrJ3iBHQQf&uniplatform=NZKPT&language=CHS).

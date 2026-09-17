@@ -1,9 +1,31 @@
 type = "card"
 title = "Services"
-description = "Professional services and community involvement."
+description = "Peer review, academic memberships, and community service."
 
 [[items]]
-title = "Reviewer"
-subtitle = "Journal Name"
-date = "2024"
-content = "Reviewed papers for..."
+title = "Peer Reviewer"
+subtitle = "Journal of Environmental Psychology · Guangdong Landscape Architecture · Journal of South Architecture"
+date = "2022 – Present"
+content = "Reviewed 11 manuscripts across three journals: *Journal of Environmental Psychology* (1), *Guangdong Landscape Architecture* (8), and *Journal of South Architecture* (2)."
+tags = ["Peer review"]
+
+[[items]]
+title = "Academic Memberships"
+subtitle = "IAPS · EDRA · CEB-ASC"
+date = "Present"
+content = "Member of the International Association for People-Environment Studies (IAPS), the Environmental Design Research Association (EDRA), and the Committee of Environment-Behavior, Architectural Society of China (CEB-ASC)."
+tags = ["Membership"]
+
+[[items]]
+title = "Graduate Party Branch Secretary"
+subtitle = "CAUP, Tongji University"
+date = "2020 – 2024"
+content = "Twice recognized as Outstanding Party Member. Organized joint activities on urban regeneration and rural revitalization, with practice featured by Xuexi Qiangguo and other media; managed membership development and daily branch operations."
+tags = ["Service"]
+
+[[items]]
+title = "Deputy Secretary (Secondment)"
+subtitle = "Youth League Committee, Jing'an District, Shanghai"
+date = "2021 – 2022"
+content = "Delivered child-friendly community renewal work highlighted by the Communist Youth League Central Committee; surveyed 10+ communities to implement co-governance projects and co-developed youth community policies and mechanisms."
+tags = ["Service"]

@@ -1,27 +1,73 @@
 type = "card"
 title = "Awards"
-description = "Honors and awards I have received."
+description = "Selected honors, scholarships, and competition awards."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Outstanding Graduate of Shanghai City"
+subtitle = "Shanghai Municipal Education Commission"
 date = "2025"
-content = "Description of the award."
+content = "Municipal-level honor for outstanding doctoral graduates."
+tags = ["Honor"]
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Excellent Teaching Assistant"
+subtitle = "Tongji University"
 date = "2024"
-content = "Description of the award."
+content = "For the graduate course Environmental Psychology."
+tags = ["Teaching"]
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Top Downloaded Papers, CNKI Academic Highlights"
+subtitle = "CNKI"
 date = "2023"
-content = "Description of the award."
+content = "Three papers recognized as top downloaded; two papers additionally recognized for high PCS citation, high citation, and high download counts."
+tags = ["Research"]
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Best Presentation"
+subtitle = "China Healthy City Science Symposium, Shanghai"
+date = "2023"
+content = "For *Designing Healthy Cities for Young Adults: Public Policy Implications and Healing Public Space Strategies*."
+tags = ["Conference"]
+
+[[items]]
+title = "China Scholarship Council, High-level University Graduate Program"
+subtitle = "China Scholarship Council"
+date = "2023"
+content = "State-funded joint doctoral study at the National University of Singapore."
+tags = ["Scholarship"]
+
+[[items]]
+title = "National Scholarship for Doctoral Students"
+subtitle = "Ministry of Education of China"
 date = "2022"
-content = "Description of the award."
+content = "Highest national scholarship for doctoral students."
+tags = ["Scholarship"]
+
+[[items]]
+title = "Qian Xuesen Urban Studies Gold Award, Nomination (1st place)"
+subtitle = "Qian Xuesen Urban Studies Gold Award Committee"
+date = "2021"
+content = "Ranked first among nominations, for work on urban health issues."
+tags = ["Research"]
+
+[[items]]
+title = "Outstanding Student, Tongji University"
+subtitle = "Tongji University"
+date = "2022"
+content = "Also recognized as Outstanding CPC Member at CAUP, Tongji University (2020, 2022)."
+tags = ["Honor"]
+
+[[items]]
+title = "Outstanding Graduate of Hunan Province"
+subtitle = "Hunan Province · Central South University"
+date = "2019"
+content = "Also named Outstanding Graduate of Central South University (2019) and Outstanding CPC Member (2018)."
+tags = ["Honor"]
+
+[[items]]
+title = "Third Prize, National Green Building Design Competition"
+subtitle = "National competition"
+date = "2018"
+content = "Other competitions and scholarships: CCCC Second Highway Consultants Zenith Elite Award (2023), China Telecom Scholarship (2022), Qu Yuan Scholarship (2017), National Scholarship (twice, 2014–2018), University First-class Scholarship (four consecutive years, 2014–2018)."
+tags = ["Competition"]

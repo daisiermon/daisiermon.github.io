@@ -1,0 +1,55 @@
+type = "card"
+title = "Grants"
+description = "Research grants I lead or contribute to."
+
+[[items]]
+title = "Cyrus Tang Foundation International Doctoral Research Grant"
+subtitle = "Principal Investigator · Grant No. 01001650051022009"
+date = "2024.03 – 2026.12"
+content = """
+**Community Scenes, Elements, and Neural Mechanisms for Young Adults' Healing: A Neuroscience Perspective**
+
+Project conceptualization and design, fNIRS protocol design, field studies, data collection and analysis, and scientific dissemination.
+
+Budget: approx. USD 13,950 · Status: Ongoing
+"""
+tags = ["PI", "Ongoing"]
+
+[[items]]
+title = "China Scholarship Council Research Grant"
+subtitle = "Principal Investigator · Grant No. 202306260263"
+date = "2024.01 – 2025.03"
+content = """
+**Healing Benefits and Key Design Indicators of Public Spaces in High-density Urban Communities**
+
+Conceptual framework, project design, surveys and fieldwork, spatial-behavioral analysis, and output preparation.
+
+Budget: approx. USD 27,900 · Status: Completed
+"""
+tags = ["PI", "Completed"]
+
+[[items]]
+title = "National Key Research and Development Program of China"
+subtitle = "Core Team Member · Project No. 2024YFF0618400"
+date = "2024.11 – 2027.11"
+content = """
+**Detection and Evaluation of Living Environments and Rehabilitation Assistive Devices for Elderly People with Disability and Dementia**
+
+Behavioral environment evaluation, aging-supportive design indicators, field studies, and data interpretation.
+
+Budget: approx. USD 1,676,000 · Status: Ongoing
+"""
+tags = ["Co-I", "Ongoing"]
+
+[[items]]
+title = "National Natural Science Foundation of China (NSFC)"
+subtitle = "Core Team Member · Grant No. 51778422"
+date = "2019.09 – 2021.12"
+content = """
+**Publicness-oriented Efficiency and Key Indicators for Public Space Layout**
+
+Data analysis, surveys, and methodological development support.
+
+Budget: approx. USD 97,800 · Status: Completed
+"""
+tags = ["Co-I", "Completed"]

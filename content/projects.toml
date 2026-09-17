@@ -1,0 +1,66 @@
+type = "card"
+title = "Projects"
+description = "Community renewal, place-making, and architectural design practice."
+
+[[items]]
+title = "Daoxiang Neighborhood Renewal, Wuxi"
+subtitle = "Project Lead · Binhu District, Jiangsu"
+date = "2022 – 2023"
+content = "Led the renewal of the Daoxiang neighborhood, selected as a national first-batch urban renewal pilot by the Ministry of Housing and Urban-Rural Development."
+tags = ["Community renewal"]
+
+[[items]]
+title = "15-minute Life Circle Place-making, Ningbo"
+subtitle = "Project Lead · Baihe Sub-district, Zhejiang"
+date = "2021"
+content = "Directed community place-making for the Baihe Sub-district 15-minute life circle."
+tags = ["Place-making"]
+
+[[items]]
+title = "Zhijiang Xilu Youth Community Renewal, Shanghai"
+subtitle = "Project Lead · Jing'an District"
+date = "2021"
+content = "Led a youth community renewal project, covered by the Communist Youth League Central Committee."
+tags = ["Youth community"]
+
+[[items]]
+title = "Xinmei Gonghecheng Community Renewal, Shanghai"
+subtitle = "Project Lead · Daning Road Sub-district, Jing'an District"
+date = "2021"
+content = "Led community renewal for the Xinmei Gonghecheng residential area."
+tags = ["Community renewal"]
+
+[[items]]
+title = "Zhongyue Temple Xinyuan Community Renewal, Dengfeng"
+subtitle = "Project Lead · Henan"
+date = "2021"
+content = "Led community renewal for the Xinyuan community at Zhongyue Temple."
+tags = ["Community renewal"]
+
+[[items]]
+title = "Husong Highway Corridor Enhancement, Shanghai"
+subtitle = "Project Lead · Songjiang District"
+date = "2020"
+content = "Led the environmental enhancement of the Husong Highway corridor."
+tags = ["Environmental design"]
+
+[[items]]
+title = "Tangqiao Leisure Plaza Micro-renewal, Shanghai"
+subtitle = "Team Member · Pudong New Area"
+date = "2019"
+content = "Participated in the Colorful Community micro-renewal of Tangqiao Leisure Plaza."
+tags = ["Micro-renewal"]
+
+[[items]]
+title = "Nanshan Science and Technology Innovation Center, Shenzhen"
+subtitle = "Facade Design Lead · National innovation center"
+date = "2019 – 2020"
+content = "Led the tower facade design; Bid First Prize and Berlin Design Gold Award."
+tags = ["Architecture", "Award"]
+
+[[items]]
+title = "Wansli Group Headquarters, Hangzhou"
+subtitle = "Facade Design Lead · Corporate headquarters"
+date = "2018 – 2019"
+content = "Led the tower facade design for the Wansli Group headquarters building."
+tags = ["Architecture"]

@@ -1,4 +1,4 @@
 type = "publication"
 title = "Publications"
-description = "A collection of my research work."
+description = "Journal articles and conference papers. Also on Google Scholar, ResearchGate, and CNKI."
 source = "publications.bib"
