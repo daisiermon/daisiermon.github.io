@@ -49,6 +49,12 @@ export default function TextPage({ config, content, embedded = false }: TextPage
                         ),
                         strong: ({ children }) => <strong className="font-semibold text-primary">{children}</strong>,
                         em: ({ children }) => <em className="italic text-neutral-600 dark:text-neutral-500">{children}</em>,
+                        // Inline code doubles as a small tag chip (e.g. `985`, `QS #10`)
+                        code: ({ children }) => (
+                            <code className="inline-block align-middle mr-1.5 px-2 py-0.5 rounded border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 text-xs font-sans font-medium not-italic">
+                                {children}
+                            </code>
+                        ),
                     }}
                 >
                     {content}
