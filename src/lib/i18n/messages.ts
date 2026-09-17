@@ -16,6 +16,7 @@ export interface LocaleMessages {
   profile: {
     email: string;
     location: string;
+    cnki: string;
     workAddress: string;
     click: string;
     googleMap: string;
@@ -66,6 +67,7 @@ const en: LocaleMessages = {
   profile: {
     email: 'Email',
     location: 'Location',
+    cnki: 'CNKI',
     workAddress: 'Work Address',
     click: 'Click',
     googleMap: 'Google Map',
@@ -116,6 +118,7 @@ const zh: LocaleMessages = {
   profile: {
     email: '邮箱',
     location: '地址',
+    cnki: '知网',
     workAddress: '办公地址',
     click: '点击',
     googleMap: '谷歌地图',

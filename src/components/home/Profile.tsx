@@ -110,11 +110,16 @@ export default function Profile({ author, social, features, researchInterests }:
             icon: Linkedin,
         }] : []),
         ...(social.cnki ? [{
-            name: 'CNKI',
+            name: messages.profile.cnki,
             href: social.cnki as string,
             icon: BookOpen,
         }] : []),
     ];
+
+    // Icon + label chips, so a visitor can read where each link goes
+    const chipClass = 'inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border text-xs font-medium transition-colors duration-200';
+    const chipIdle = 'border-neutral-200 dark:border-neutral-800 text-neutral-600 dark:text-neutral-400 hover:text-accent hover:border-accent/40';
+    const chipActive = 'border-accent/40 text-accent';
 
     return (
         <motion.div
@@ -149,7 +154,7 @@ export default function Profile({ author, social, features, researchInterests }:
             </div>
 
             {/* Contact Links */}
-            <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-6 relative px-2">
+            <div className="flex flex-wrap justify-center gap-2 mb-6 relative px-2">
                 {socialLinks.map((link) => {
                     const IconComponent = link.icon;
                     if (link.isLocation) {
@@ -166,17 +171,15 @@ export default function Profile({ author, social, features, researchInterests }:
                                         setShowAddress(!isAddressPinned);
                                         setLastClickedTooltip('address');
                                     }}
-                                    className={`p-2 sm:p-2 transition-colors duration-200 ${isAddressPinned
-                                        ? 'text-accent'
-                                        : 'text-neutral-600 dark:text-neutral-400 hover:text-accent'
-                                        }`}
+                                    className={`${chipClass} ${isAddressPinned ? chipActive : chipIdle}`}
                                     aria-label={link.name}
                                 >
                                     {isAddressPinned ? (
-                                        <MapPinSolidIcon className="h-5 w-5" />
+                                        <MapPinSolidIcon className="h-4 w-4" />
                                     ) : (
-                                        <MapPinIcon className="h-5 w-5" />
+                                        <MapPinIcon className="h-4 w-4" />
                                     )}
+                                    <span>{link.name}</span>
                                 </button>
 
                                 {/* Address tooltip */}
@@ -243,17 +246,15 @@ export default function Profile({ author, social, features, researchInterests }:
                                         setShowEmail(!isEmailPinned);
                                         setLastClickedTooltip('email');
                                     }}
-                                    className={`p-2 sm:p-2 transition-colors duration-200 ${isEmailPinned
-                                        ? 'text-accent'
-                                        : 'text-neutral-600 dark:text-neutral-400 hover:text-accent'
-                                        }`}
+                                    className={`${chipClass} ${isEmailPinned ? chipActive : chipIdle}`}
                                     aria-label={link.name}
                                 >
                                     {isEmailPinned ? (
-                                        <EnvelopeSolidIcon className="h-5 w-5" />
+                                        <EnvelopeSolidIcon className="h-4 w-4" />
                                     ) : (
-                                        <EnvelopeIcon className="h-5 w-5" />
+                                        <EnvelopeIcon className="h-4 w-4" />
                                     )}
+                                    <span>{link.name}</span>
                                 </button>
 
                                 {/* Email tooltip */}
@@ -308,10 +309,11 @@ export default function Profile({ author, social, features, researchInterests }:
                             href={link.href}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="p-2 sm:p-2 text-neutral-600 dark:text-neutral-400 hover:text-accent transition-colors duration-200"
+                            className={`${chipClass} ${chipIdle}`}
                             aria-label={link.name}
                         >
-                            <IconComponent className="h-5 w-5" />
+                            <IconComponent className="h-4 w-4" />
+                            <span>{link.name}</span>
                         </a>
                     );
                 })}
