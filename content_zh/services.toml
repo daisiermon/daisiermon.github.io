@@ -1,31 +1,53 @@
 type = "card"
 title = "学术服务"
-description = "期刊审稿、学会任职与社会服务。"
+description = "编委与顾问、期刊审稿、学会会员与社会服务。"
 
 [[items]]
-title = "期刊审稿人"
-subtitle = "《环境心理学》·《广东园林》·《南方建筑》"
-date = "2022 – 至今"
-content = "累计为三家期刊审阅 11 篇稿件：*Journal of Environmental Psychology*（1 篇）、《广东园林》（8 篇）、《南方建筑》（2 篇）。"
-tags = ["审稿"]
-
-[[items]]
-title = "学会会员"
-subtitle = "IAPS · EDRA · 中国建筑学会环境行为专业委员会"
+group = "编委与顾问"
+title = "青年编委（Early Career Advisory Board）"
+subtitle = "Journal of Environmental Psychology"
 date = "至今"
-content = "国际人与环境研究学会（IAPS）会员、美国环境设计研究学会（EDRA）会员、中国建筑学会环境行为专业委员会（CEB-ASC）会员。"
-tags = ["学会"]
+content = "担任 *Journal of Environmental Psychology* 青年编委会成员。"
 
 [[items]]
-title = "研究生党支部书记"
-subtitle = "同济大学建筑与城市规划学院"
-date = "2020 – 2024"
-content = "两次获评优秀党员；围绕城市更新与乡村振兴组织党团共建与主题活动，相关实践获学习强国等媒体报道；负责党员发展与支部日常管理。"
-tags = ["社会服务"]
+group = "期刊审稿"
+title = "Journal of Environmental Psychology"
+subtitle = "审稿人 · 1 篇"
+date = "2022 – 至今"
 
 [[items]]
+group = "期刊审稿"
+title = "《广东园林》"
+subtitle = "审稿人 · 8 篇"
+date = "2022 – 至今"
+
+[[items]]
+group = "期刊审稿"
+title = "《南方建筑》"
+subtitle = "审稿人 · 2 篇"
+date = "2022 – 至今"
+
+[[items]]
+group = "学会会员"
+title = "国际人与环境研究学会（IAPS）"
+subtitle = "会员"
+date = "至今"
+
+[[items]]
+group = "学会会员"
+title = "美国环境设计研究学会（EDRA）"
+subtitle = "会员"
+date = "至今"
+
+[[items]]
+group = "学会会员"
+title = "中国建筑学会环境行为专业委员会（CEB-ASC）"
+subtitle = "会员"
+date = "至今"
+
+[[items]]
+group = "社会服务"
 title = "上海市静安区团委副书记（挂职）"
 subtitle = "共青团上海市静安区委员会"
 date = "2021 – 2022"
 content = "推动儿童友好社区更新工作获共青团中央报道；调研 10 余个社区并推动共治项目落地，联合研究青年社区治理政策与机制。"
-tags = ["社会服务"]

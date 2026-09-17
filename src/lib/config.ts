@@ -17,7 +17,8 @@ export interface SiteConfig {
     avatar: string;
   };
   social: {
-    email?: string;
+    // A single address, or several — the first one is used for the mailto: link
+    email?: string | string[];
     location?: string;
     location_url?: string;
     location_details?: string[];
@@ -25,6 +26,7 @@ export interface SiteConfig {
     orcid?: string;
     github?: string;
     linkedin?: string;
+    cnki?: string;
     [key: string]: string | string[] | undefined;
   };
   features: {

@@ -30,6 +30,21 @@ const markdownComponents = {
 };
 
 export default function CardPage({ config, embedded = false }: { config: CardPageConfig; embedded?: boolean }) {
+    // Keep the authored order, but collect runs of items that share a `group`
+    // so each run can be rendered under its own heading. Items without a group
+    // fall into an unlabelled run and render exactly as before.
+    const groups: Array<{ name?: string; items: typeof config.items }> = [];
+    config.items.forEach((item) => {
+        const last = groups[groups.length - 1];
+        if (last && last.name === item.group) {
+            last.items.push(item);
+        } else {
+            groups.push({ name: item.group, items: [item] });
+        }
+    });
+
+    let cardIndex = 0;
+
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -47,8 +62,16 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                 )}
             </div>
 
-            <div className={`grid ${embedded ? "gap-4" : "gap-6"}`}>
-                {config.items.map((item, index) => (
+            {groups.map((group, groupIndex) => (
+            <div key={groupIndex} className={`grid ${embedded ? "gap-4" : "gap-6"} ${groupIndex > 0 ? (embedded ? "mt-8" : "mt-10") : ""}`}>
+                {group.name && (
+                    <h2 className={`${embedded ? "text-lg" : "text-2xl"} font-serif font-bold text-primary ${embedded ? "-mb-1" : "-mb-2"}`}>
+                        {group.name}
+                    </h2>
+                )}
+                {group.items.map((item) => {
+                    const index = cardIndex++;
+                    return (
                     <motion.div
                         key={index}
                         initial={{ opacity: 0, y: 20 }}
@@ -84,8 +107,10 @@ export default function CardPage({ config, embedded = false }: { config: CardPag
                             </div>
                         )}
                     </motion.div>
-                ))}
+                    );
+                })}
             </div>
+            ))}
         </motion.div>
     );
 }

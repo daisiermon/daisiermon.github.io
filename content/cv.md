@@ -17,7 +17,7 @@ Environment and Behavior Laboratory; Lab of Neuroscience and Augmented Architect
 - Advisor: Prof. Tan Shin Bin
 
 **Bachelor of Architecture**, Central South University, *2014.09 – 2019.06*
-- School of Architecture and Art, Changsha
+- [School of Architecture and Art](https://art.csu.edu.cn/), Changsha
 
 ## Research Profile
 
@@ -33,6 +33,7 @@ Interdisciplinary researcher in healing environments, environmental psychology, 
 
 ## Conference Presentations (Oral)
 
+- **2026** — **Keynote.** V International Research Meeting of the Spain–China Joint Research Groups, *Environmental Psychology, Architecture, Urban Studies and Neuroscience*, Universidade da Coruña, A Coruña, Spain. Keynote lecture: *Healing Environments and Neuro-architecture.*
 - **2025** — World Congress on Design and Health, Singapore. *How Third Places Enhance Neural and Emotional Well-being in Young Adults: Evidence from Healthy Urban Environments.*
 - **2025** — Environmental Design Research Association (EDRA), Halifax, Canada. *Designing Urban Environments Through Environmental Behavior and Neural Response Insights.*
 - **2024** — International Conference on Environment-Behavior Research (CEB-ASC 2024), Nanjing, China. *Environmental Behavior Patterns and Healing Responses: Key Design Indicators for Public Spaces in High-density Urban Communities.*

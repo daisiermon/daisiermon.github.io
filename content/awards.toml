@@ -1,73 +1,116 @@
 type = "card"
 title = "Awards"
-description = "Selected honors, scholarships, and competition awards."
+description = "Honors, scholarships, and competition awards."
 
 [[items]]
+group = "Honors & Academic Recognition"
 title = "Outstanding Graduate of Shanghai City"
 subtitle = "Shanghai Municipal Education Commission"
 date = "2025"
 content = "Municipal-level honor for outstanding doctoral graduates."
-tags = ["Honor"]
 
 [[items]]
+group = "Honors & Academic Recognition"
 title = "Excellent Teaching Assistant"
 subtitle = "Tongji University"
 date = "2024"
 content = "For the graduate course Environmental Psychology."
-tags = ["Teaching"]
 
 [[items]]
+group = "Honors & Academic Recognition"
 title = "Top Downloaded Papers, CNKI Academic Highlights"
-subtitle = "CNKI"
+subtitle = "CNKI · 3 papers"
 date = "2023"
-content = "Three papers recognized as top downloaded; two papers additionally recognized for high PCS citation, high citation, and high download counts."
-tags = ["Research"]
+content = "Three papers recognized as top downloaded on CNKI Academic Highlights."
 
 [[items]]
+group = "Honors & Academic Recognition"
+title = "High PCS Citation, Highly Cited, and High Downloaded Paper"
+subtitle = "CNKI · 2 articles"
+date = "2023"
+content = "Two articles recognized across all three citation and download indicators."
+
+[[items]]
+group = "Honors & Academic Recognition"
 title = "Best Presentation"
 subtitle = "China Healthy City Science Symposium, Shanghai"
 date = "2023"
 content = "For *Designing Healthy Cities for Young Adults: Public Policy Implications and Healing Public Space Strategies*."
-tags = ["Conference"]
 
 [[items]]
-title = "China Scholarship Council, High-level University Graduate Program"
-subtitle = "China Scholarship Council"
-date = "2023"
-content = "State-funded joint doctoral study at the National University of Singapore."
-tags = ["Scholarship"]
-
-[[items]]
-title = "National Scholarship for Doctoral Students"
-subtitle = "Ministry of Education of China"
-date = "2022"
-content = "Highest national scholarship for doctoral students."
-tags = ["Scholarship"]
-
-[[items]]
+group = "Honors & Academic Recognition"
 title = "Qian Xuesen Urban Studies Gold Award, Nomination (1st place)"
 subtitle = "Qian Xuesen Urban Studies Gold Award Committee"
 date = "2021"
 content = "Ranked first among nominations, for work on urban health issues."
-tags = ["Research"]
 
 [[items]]
-title = "Outstanding Student, Tongji University"
+group = "Honors & Academic Recognition"
+title = "Outstanding Student"
 subtitle = "Tongji University"
 date = "2022"
-content = "Also recognized as Outstanding CPC Member at CAUP, Tongji University (2020, 2022)."
-tags = ["Honor"]
+content = "University-level honor for academic performance and research contribution."
 
 [[items]]
+group = "Honors & Academic Recognition"
 title = "Outstanding Graduate of Hunan Province"
 subtitle = "Hunan Province · Central South University"
 date = "2019"
-content = "Also named Outstanding Graduate of Central South University (2019) and Outstanding CPC Member (2018)."
-tags = ["Honor"]
+content = "Also named Outstanding Graduate of Central South University in the same year."
 
 [[items]]
+group = "Honors & Academic Recognition"
+title = "University Outstanding Student"
+subtitle = "Central South University · Four consecutive years"
+date = "2014 – 2018"
+content = "Awarded in each of the four undergraduate years."
+
+[[items]]
+group = "Scholarships"
+title = "China Scholarship Council, High-level University Graduate Program"
+subtitle = "China Scholarship Council"
+date = "2023"
+content = "State-funded joint doctoral study at the National University of Singapore."
+
+[[items]]
+group = "Scholarships"
+title = "National Scholarship for Doctoral Students"
+subtitle = "Ministry of Education of China"
+date = "2022"
+content = "Highest national scholarship for doctoral students."
+
+[[items]]
+group = "Scholarships"
+title = "CCCC Second Highway Consultants Zenith Elite Award"
+subtitle = "CCCC Second Highway Consultants Co., Ltd."
+date = "2023"
+
+[[items]]
+group = "Scholarships"
+title = "China Telecom Scholarship"
+subtitle = "China Telecom"
+date = "2022"
+
+[[items]]
+group = "Scholarships"
+title = "Qu Yuan Scholarship"
+subtitle = "Central South University"
+date = "2017"
+
+[[items]]
+group = "Scholarships"
+title = "National Scholarship"
+subtitle = "Ministry of Education of China · Awarded twice"
+date = "2014 – 2018"
+
+[[items]]
+group = "Scholarships"
+title = "University First-class Scholarship"
+subtitle = "Central South University · Four consecutive years"
+date = "2014 – 2018"
+
+[[items]]
+group = "Competitions"
 title = "Third Prize, National Green Building Design Competition"
 subtitle = "National competition"
 date = "2018"
-content = "Other competitions and scholarships: CCCC Second Highway Consultants Zenith Elite Award (2023), China Telecom Scholarship (2022), Qu Yuan Scholarship (2017), National Scholarship (twice, 2014–2018), University First-class Scholarship (four consecutive years, 2014–2018)."
-tags = ["Competition"]

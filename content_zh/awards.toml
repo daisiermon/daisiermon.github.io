@@ -1,73 +1,116 @@
 type = "card"
 title = "奖项荣誉"
-description = "代表性荣誉、奖学金与竞赛奖项。"
+description = "荣誉称号、奖学金与竞赛奖项。"
 
 [[items]]
+group = "荣誉与学术认可"
 title = "上海市优秀毕业生"
 subtitle = "上海市教育委员会"
 date = "2025"
 content = "市级优秀博士毕业生荣誉。"
-tags = ["荣誉"]
 
 [[items]]
+group = "荣誉与学术认可"
 title = "同济大学优秀助教"
 subtitle = "同济大学"
 date = "2024"
 content = "因研究生课程《环境心理学》教学工作获评。"
-tags = ["教学"]
 
 [[items]]
-title = "知网学术精要高下载论文（3 篇）"
-subtitle = "中国知网"
+group = "荣誉与学术认可"
+title = "知网学术精要高下载论文"
+subtitle = "中国知网 · 3 篇"
 date = "2023"
-content = "3 篇论文入选高下载论文；另有 2 篇获高 PCS 引论文、高被引论文与高下载论文认定。"
-tags = ["科研"]
+content = "3 篇论文入选知网学术精要高下载论文。"
 
 [[items]]
+group = "荣誉与学术认可"
+title = "高 PCS 引论文、高被引论文、高下载论文"
+subtitle = "中国知网 · 2 篇"
+date = "2023"
+content = "2 篇论文同时获三项指标认定。"
+
+[[items]]
+group = "荣誉与学术认可"
 title = "中国健康城市科学学术年会最佳报告"
 subtitle = "中国健康城市科学学术年会（上海）"
 date = "2023"
 content = "报告题目：青年健康城市设计、公共政策启示与疗愈空间策略。"
-tags = ["会议"]
 
 [[items]]
-title = "国家留学基金委建设高水平大学公派研究生项目"
-subtitle = "国家留学基金委"
-date = "2023"
-content = "国家公派赴新加坡国立大学联合培养。"
-tags = ["奖学金"]
-
-[[items]]
-title = "博士研究生国家奖学金"
-subtitle = "中华人民共和国教育部"
-date = "2022"
-content = "博士研究生最高级别国家奖学金。"
-tags = ["奖学金"]
-
-[[items]]
+group = "荣誉与学术认可"
 title = "钱学森城市学金奖提名（第 1 位）"
 subtitle = "钱学森城市学金奖评审委员会"
 date = "2021"
 content = "围绕城市卫生健康问题，提名排序第一。"
-tags = ["科研"]
 
 [[items]]
+group = "荣誉与学术认可"
 title = "同济大学优秀学生"
 subtitle = "同济大学"
 date = "2022"
-content = "另于 2020、2022 年两次获评同济大学建筑与城市规划学院优秀共产党员。"
-tags = ["荣誉"]
+content = "校级荣誉，表彰学业表现与科研贡献。"
 
 [[items]]
+group = "荣誉与学术认可"
 title = "湖南省优秀毕业生"
 subtitle = "湖南省 · 中南大学"
 date = "2019"
-content = "同时获评中南大学优秀毕业生（2019）与中南大学优秀共产党员（2018）。"
-tags = ["荣誉"]
+content = "同年并获评中南大学优秀毕业生。"
 
 [[items]]
+group = "荣誉与学术认可"
+title = "校级优秀学生"
+subtitle = "中南大学 · 连续四年"
+date = "2014 – 2018"
+content = "本科四年连续获评。"
+
+[[items]]
+group = "奖学金"
+title = "国家留学基金委建设高水平大学公派研究生项目"
+subtitle = "国家留学基金委"
+date = "2023"
+content = "国家公派赴新加坡国立大学联合培养。"
+
+[[items]]
+group = "奖学金"
+title = "博士研究生国家奖学金"
+subtitle = "中华人民共和国教育部"
+date = "2022"
+content = "博士研究生最高级别国家奖学金。"
+
+[[items]]
+group = "奖学金"
+title = "中交二公院志业精英奖"
+subtitle = "中交第二公路勘察设计研究院"
+date = "2023"
+
+[[items]]
+group = "奖学金"
+title = "中国电信奖学金"
+subtitle = "中国电信"
+date = "2022"
+
+[[items]]
+group = "奖学金"
+title = "屈原奖学金"
+subtitle = "中南大学"
+date = "2017"
+
+[[items]]
+group = "奖学金"
+title = "国家奖学金"
+subtitle = "中华人民共和国教育部 · 2 次"
+date = "2014 – 2018"
+
+[[items]]
+group = "奖学金"
+title = "校级一等奖学金"
+subtitle = "中南大学 · 连续四年"
+date = "2014 – 2018"
+
+[[items]]
+group = "竞赛"
 title = "全国绿色建筑设计竞赛三等奖"
 subtitle = "全国竞赛"
 date = "2018"
-content = "其他竞赛与奖学金：中交二公院志业精英奖（2023）、中国电信奖学金（2022）、屈原奖学金（2017）、国家奖学金（2 次，2014–2018）、校级一等奖学金（连续四年，2014–2018）。"
-tags = ["竞赛"]

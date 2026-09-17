@@ -11,7 +11,7 @@ import {
 } from '@heroicons/react/24/outline';
 import { MapPinIcon as MapPinSolidIcon, EnvelopeIcon as EnvelopeSolidIcon } from '@heroicons/react/24/solid';
 import { HeartIcon as HeartSolidIcon } from '@heroicons/react/24/solid';
-import { Github, Linkedin, Pin } from 'lucide-react';
+import { Github, Linkedin, Pin, BookOpen } from 'lucide-react';
 import type { SiteConfig } from '@/lib/config';
 import { useMessages } from '@/lib/i18n/useMessages';
 
@@ -69,10 +69,17 @@ export default function Profile({ author, social, features, researchInterests }:
         }
     };
 
+    // `email` may be a single address or a list; the first one backs the mailto: link
+    const emails = Array.isArray(social.email)
+        ? social.email
+        : social.email
+            ? [social.email]
+            : [];
+
     const socialLinks = [
-        ...(social.email ? [{
+        ...(emails.length > 0 ? [{
             name: messages.profile.email,
-            href: `mailto:${social.email}`,
+            href: `mailto:${emails[0]}`,
             icon: EnvelopeIcon,
             isEmail: true,
         }] : []),
@@ -101,6 +108,11 @@ export default function Profile({ author, social, features, researchInterests }:
             name: 'LinkedIn',
             href: social.linkedin,
             icon: Linkedin,
+        }] : []),
+        ...(social.cnki ? [{
+            name: 'CNKI',
+            href: social.cnki as string,
+            icon: BookOpen,
         }] : []),
     ];
 
@@ -269,7 +281,9 @@ export default function Profile({ author, social, features, researchInterests }:
                                                         </div>
                                                     )}
                                                 </div>
-                                                <p className="break-words">{social.email?.replace('@', ' (at) ')}</p>
+                                                {emails.map((address) => (
+                                                    <p key={address} className="break-words">{address.replace('@', ' (at) ')}</p>
+                                                ))}
                                                 <div className="mt-2">
                                                     <a
                                                         href={link.href}
