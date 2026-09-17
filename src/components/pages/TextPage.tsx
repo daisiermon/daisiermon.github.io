@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
 import { TextPageConfig } from '@/types/page';
+import { cn } from '@/lib/utils';
 
 interface TextPageProps {
     config: TextPageConfig;
@@ -49,12 +50,27 @@ export default function TextPage({ config, content, embedded = false }: TextPage
                         ),
                         strong: ({ children }) => <strong className="font-semibold text-primary">{children}</strong>,
                         em: ({ children }) => <em className="italic text-neutral-600 dark:text-neutral-500">{children}</em>,
-                        // Inline code doubles as a small tag chip (e.g. `985`, `QS #10`)
-                        code: ({ children }) => (
-                            <code className="inline-block align-middle mr-1.5 px-2 py-0.5 rounded border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-800/50 text-neutral-600 dark:text-neutral-400 text-xs font-sans font-medium not-italic">
-                                {children}
-                            </code>
-                        ),
+                        // Inline code doubles as a small tag chip (e.g. `985`, `QS World #177`).
+                        // Tags carrying a '#' are rankings and get the gold accent treatment;
+                        // everything else (985, 211, Double First-Class) stays neutral.
+                        // The neutral and accent tokens invert in dark mode, so no dark: variants
+                        // are needed here.
+                        code: ({ children }) => {
+                            const text = Array.isArray(children) ? children.join('') : String(children ?? '');
+                            const isRanking = text.includes('#');
+                            return (
+                                <code
+                                    className={cn(
+                                        'inline-block align-middle mr-1.5 px-2.5 py-1 rounded-md border text-xs font-sans font-medium not-italic tracking-wide',
+                                        isRanking
+                                            ? 'bg-accent/15 border-accent/40 text-primary'
+                                            : 'bg-neutral-100 border-neutral-200 text-neutral-600'
+                                    )}
+                                >
+                                    {children}
+                                </code>
+                            );
+                        },
                     }}
                 >
                     {content}

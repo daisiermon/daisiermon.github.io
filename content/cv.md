@@ -9,17 +9,17 @@ Environment and Behavior Laboratory; Lab of Neuroscience and Augmented Architect
 ## Education
 
 **Doctor of Engineering in Architecture**, Tongji University, *2019.09 – 2025.11*  
-`Project 985` `Project 211` `Double First-Class`
+`Project 985` `Project 211` `Double First-Class` `ShanghaiRanking China #18` `QS World #177`
 - College of Architecture and Urban Planning, Shanghai
 - Advisor: Prof. Leiqing Xu
 
 **Joint Ph.D. Student, Public Policy**, National University of Singapore, *2024.01 – 2025.01*  
-`QS World #10` `#1 in Asia`
+`QS World #10` `Asia #1`
 - Lee Kuan Yew School of Public Policy, Singapore
 - Advisor: Prof. Tan Shin Bin
 
 **Bachelor of Architecture**, Central South University, *2014.09 – 2019.06*  
-`Project 985` `Project 211` `Double First-Class`
+`Project 985` `Project 211` `Double First-Class` `ShanghaiRanking China #27` `ARWU World #83`
 - School of Architecture and Art, Changsha
 
 ## Research Profile
